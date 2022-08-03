@@ -13,7 +13,7 @@ We used UTKinect dataset for this test and the inputs are extracted from 3 plane
 
 ![soft voting](https://user-images.githubusercontent.com/106428795/182706147-75dae7e0-4257-4d87-ad4e-e027cb72f66b.jpg)
 
-###### The blue block, which is defined by softmax, actually is a fully connected layer with softmax activation function. For more details see the code. 
+##### The blue block, which is defined by softmax, actually is a fully connected layer with softmax activation function. For more details see the code. 
 
 The code of this model is available in model_1.py.
 
@@ -24,13 +24,13 @@ The code of this model is available in model_1.py.
 
 ![softmax fusion](https://user-images.githubusercontent.com/106428795/182701879-fd97a617-7a7d-4e66-8248-ff00205cef73.jpg)
 
-###### The blue block, which is defined by softmax, actually is a fully connected layer with softmax activation function. For more details see the code. 
+##### The blue block, which is defined by softmax, actually is a fully connected layer with softmax activation function. For more details see the code. 
 
 #### 3-First concatenating data, then using a CNNs for training
         
 
 ![input fusion](https://user-images.githubusercontent.com/106428795/182699105-b58271ca-a77b-45ae-888e-7e7f11986fa8.jpg)
 
-###### The blue block, which is defined by softmax, actually is a fully connected layer with softmax activation function. For more details see the code.
+##### The blue block, which is defined by softmax, actually is a fully connected layer with softmax activation function. For more details see the code.
 
 
