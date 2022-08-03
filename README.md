@@ -8,6 +8,8 @@ By considering that 3 inputs are available to feed the CNNs model, it is importa
         3-First concating the data, then using a CNNs for training
         
 #### 1-Training each model seperately and fusion their results
+We used UTKinect dataset for this test and the inputs are extracted from 3 plane(x-y, y-z, x-z)
+
 
 
 #### 2-Each input has its own CNNs, but they are concatenated in the output layer 
