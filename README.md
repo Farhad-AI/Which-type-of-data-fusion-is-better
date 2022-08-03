@@ -9,7 +9,8 @@ By considering that 3 inputs are available to feed the CNNs model, it is importa
         
 #### 1-Training each model seperately and fusion their results
 We used UTKinect dataset for this test and the inputs are extracted from 3 plane(x-y, y-z, x-z). Three CNNs by same architecure traind on them and finally their outputs mixed together. The output of the softmax, which shows the probability of each class, is used for soft voting.
-The implementation code of this model is available in model_1.py
+
+The code of this model is available in model_1.py.
 
 
 
