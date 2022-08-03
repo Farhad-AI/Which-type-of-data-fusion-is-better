@@ -19,8 +19,7 @@ class Fusion_In_Input(nn.Module):
         x_new = F.relu(self.conv2(x_new))
 
         x_new = torch.flatten(x_new, 1)
-        x_new = F.relu(self.fully_connected(x_new))
-        out = F.softmax(x_new, dim=1)
+        out = F.softmax(self.fully_connected(x_new))
         return out
 
 
