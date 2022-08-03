@@ -31,8 +31,7 @@ class Fusion_Before_FC(nn.Module):
 
         x_new = torch.concat((x1, x2, x3), 1)
         x_new = torch.flatten(x_new, 1)
-        x_new = F.relu(self.fully_connected(x_new))
-        out = F.softmax(x_new, dim=1)
+        out = F.softmax(self.fully_connected(x_new))
         return out
 
 
