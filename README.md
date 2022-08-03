@@ -13,10 +13,12 @@ We used UTKinect dataset for this test and the inputs are extracted from 3 plane
 
 ![soft voting](https://user-images.githubusercontent.com/106428795/182706147-75dae7e0-4257-4d87-ad4e-e027cb72f66b.jpg)
 
+
 ##### The blue block, which is defined by softmax, actually is a fully connected layer with softmax activation function. For more details see the code. 
 
 The code of this model is available in model_1.py.
 
+#### Result: 91.5%
 
 
 ### 2-Each input has its own CNNs, but they are concatenated in the output layer 
@@ -26,6 +28,10 @@ The code of this model is available in model_1.py.
 
 ##### The blue block, which is defined by softmax, actually is a fully connected layer with softmax activation function. For more details see the code. 
 
+
+
+#### Result: 93.0%
+
 ### 3-First concatenating data, then using a CNNs for training
         
 
@@ -33,4 +39,10 @@ The code of this model is available in model_1.py.
 
 ##### The blue block, which is defined by softmax, actually is a fully connected layer with softmax activation function. For more details see the code.
 
+#### Result: 94.5%
 
+### Conclusion:
+
+
+
+### Citation
