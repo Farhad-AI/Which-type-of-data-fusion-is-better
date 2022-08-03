@@ -19,7 +19,7 @@ The code of this model is available in model_1.py.
 
 
 
-#### Result: 91.5%
+#### Accuracy: 91.5%
 
 
 ### 2-Each input has its own CNNs, but they are concatenated in the output layer 
@@ -32,7 +32,7 @@ The code of this model is available in model_2.py.
 
 
 
-#### Result: 93.0%
+#### Accuracy: 93.0%
 
 ### 3-First concatenating data, then using a CNNs for training
         
@@ -42,7 +42,7 @@ The code of this model is available in model_3.py.
 
 ##### The blue block, which is defined by softmax, actually is a fully connected layer with softmax activation function. For more details see the code.
 
-#### Result: 94.5%
+#### Accuracy: 94.5%
 
 ### Conclusion:
 
