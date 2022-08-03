@@ -24,20 +24,17 @@ class Fusion_Outputs(nn.Module):
         x1 = F.relu(self.input1_conv1(x1))
         x1 = F.relu(self.input1_conv2(x1))
         x1 = torch.flatten(x1, 1)
-        x1 = F.relu(self.input1_fc(x1))
-        x1 = F.softmax(x1, dim=1)
+        x1 = F.softmax(self.input1_fc(x1))
 
         x2 = F.relu(self.input2_conv1(x2))
         x2 = F.relu(self.input2_conv2(x2))
         x2 = torch.flatten(x2, 1)
-        x2 = F.relu(self.input2_fc(x2))
-        x2 = F.softmax(x2, dim=1)
+        x2 = F.softmax(self.input2_fc(x2))
 
         x3 = F.relu(self.input3_conv1(x3))
         x3 = F.relu(self.input3_conv2(x3))
         x3 = torch.flatten(x3, 1)
-        x3 = F.relu(self.input1_fc(x3))
-        x3 = F.softmax(x3, dim=1)
+        x3 = F.softmax(self.input1_fc(x3))
 
         out = x1 + x2 + x3
         return out
