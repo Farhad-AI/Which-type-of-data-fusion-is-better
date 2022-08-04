@@ -22,7 +22,8 @@ The code of this model is available in model_1.py.
 #### Accuracy: 91.5%
 
 
-### 2-Each input has its own CNNs, but they are concatenated in the output layer 
+### 2-Each input has its own CNNs, then they are concatenated to classify by one fully connected.
+The last layer receive data from 3 parallel convolutional networks. This layer is a fully connected to define the class of data.
 
 The code of this model is available in model_2.py.
 
@@ -35,6 +36,7 @@ The code of this model is available in model_2.py.
 #### Accuracy: 93.0%
 
 ### 3-First concatenating data, then using a CNNs for training
+This fusion had the best result. 3 input data first concatenate together. After that, a convolutional neural networks trained by these data. Merging data in the first step had a significant impact on accuracy.
         
 The code of this model is available in model_3.py.
 
@@ -45,7 +47,19 @@ The code of this model is available in model_3.py.
 #### Accuracy: 94.5%
 
 ### Conclusion:
+we tried 3 differnet ways of data fusion to obtain higher accuracy. Results show that if we concatenate data in earlier step, the accuracy increases more. The highest accuracy obtained when we combined all data toghether in the input level. This approve that our convolutional neural networks had more apportunity to analyze data and extract relation between them.
 
 
+### Citation:
+If this is useful for you, please cite our paper:
 
-### Citation
+    @Article{
+    title={Time-Invariant 3D Human Action Recognition with Positive and Negative Movement Memory using Convolutional Neural Networks},
+    author={Farhad Khezeli, Hoda Mohammadzade},
+    year={2019},
+    conference={International Conference on Pattern Recognition and Image Analysis (IPRIA)},
+    volume={},
+    number={},
+    pages={},
+    doi={10.1109/PRIA.2019.8785987}
+}
