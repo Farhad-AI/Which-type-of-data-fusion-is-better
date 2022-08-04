@@ -56,10 +56,9 @@ If this is useful for you, please cite our paper:
     @Article{
     title={Time-Invariant 3D Human Action Recognition with Positive and Negative Movement Memory using Convolutional Neural Networks},
     author={Farhad Khezeli, Hoda Mohammadzade},
+    publisher={IEEE}
     year={2019},
-    conference={International Conference on Pattern Recognition and Image Analysis (IPRIA)},
-    volume={},
-    number={},
-    pages={},
+    conference={4th International Conference on Pattern Recognition and Image Analysis (IPRIA)},
+    pages={26-31},
     doi={10.1109/PRIA.2019.8785987}
 }
