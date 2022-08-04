@@ -61,4 +61,4 @@ If this is useful for you, please cite our paper:
     conference={4th International Conference on Pattern Recognition and Image Analysis (IPRIA)},
     pages={26-31},
     doi={10.1109/PRIA.2019.8785987}
-}
+    }
